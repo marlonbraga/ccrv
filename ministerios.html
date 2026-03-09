@@ -1,4 +1,4 @@
-<!DOCTYPE html>
+﻿<!DOCTYPE html>
 <html lang="pt-BR">
   <head>
     <meta charset="UTF-8" />
@@ -16,7 +16,7 @@
     <header class="topbar">
       <div class="container nav-wrap">
         <a class="brand" href="index.html">
-          <span class="logo-mini">CCRV</span>
+          <img class="logo-mini" src="images/logo-minimal.png" alt="CCRV Logo" />
           <span class="brand-text">
             <strong>CCRV</strong>
             <small>Comunidade Crist&atilde; Restaurando Vidas</small>
@@ -55,37 +55,12 @@
           </div>
         </section>
 
-        <section class="content-grid">
-          <article class="card ministry-card">
-            <img src="https://picsum.photos/64?random=511" alt="Minist&eacute;rio Infantil" />
-            <h2>Minist&eacute;rio Infantil</h2>
-            <p>
-              Ambiente seguro e alegre para crian&ccedil;as aprenderem a Palavra com linguagem apropriada.
-            </p>
-            <p class="ministry-meta">Para crian&ccedil;as de 3 a 11 anos durante os cultos.</p>
-            <a href="https://docs.google.com/forms/d/e/SEU_ID_INFANTIL/viewform" target="_blank" rel="noopener noreferrer">Quero participar &rarr;</a>
-          </article>
-
-          <article class="card ministry-card">
-            <img src="https://picsum.photos/64?random=512" alt="Minist&eacute;rio de Jovens" />
-            <h2>Minist&eacute;rio de Jovens</h2>
-            <p>
-              Encontros para fortalecimento da f&eacute;, discipulado e comunh&atilde;o entre jovens.
-            </p>
-            <p class="ministry-meta">Para adolescentes e jovens em encontros semanais.</p>
-            <a href="https://docs.google.com/forms/d/e/SEU_ID_JOVENS/viewform" target="_blank" rel="noopener noreferrer">Saiba mais &rarr;</a>
-          </article>
-
-          <article class="card ministry-card">
-            <img src="https://picsum.photos/64?random=513" alt="Minist&eacute;rio de M&uacute;sica" />
-            <h2>Minist&eacute;rio de M&uacute;sica</h2>
-            <p>
-              Equipe dedicada &agrave; adora&ccedil;&atilde;o congregacional com prepara&ccedil;&atilde;o
-              espiritual e musical.
-            </p>
-            <p class="ministry-meta">Vocalistas e instrumentistas com agenda de ensaios semanais.</p>
-            <a href="https://docs.google.com/forms/d/e/SEU_ID_MUSICA/viewform" target="_blank" rel="noopener noreferrer">Quero servir &rarr;</a>
-          </article>
+        <section class="ministries-directory">
+          <div class="section-head">
+            <h2>Nossos minist&eacute;rios</h2>
+            <p>Clique em um minist&eacute;rio para ver detalhes, vers&iacute;culo e informa&ccedil;&otilde;es pr&aacute;ticas.</p>
+          </div>
+          <div class="ministries-grid" id="ministries-grid" aria-live="polite"></div>
         </section>
 
         <section class="page-cta">
@@ -125,6 +100,28 @@
         </section>
       </div>
     </main>
+
+    <div class="ministry-modal" id="ministry-modal" aria-hidden="true">
+      <div class="ministry-modal-backdrop" data-close-modal></div>
+      <div class="ministry-modal-dialog" role="dialog" aria-modal="true" aria-labelledby="ministry-modal-title">
+        <button class="ministry-modal-close" type="button" data-close-modal aria-label="Fechar detalhes do ministério">
+          &times;
+        </button>
+        <h2 id="ministry-modal-title"></h2>
+        <p class="ministry-modal-practical" id="ministry-modal-practical"></p>
+        <p class="ministry-modal-description" id="ministry-modal-description"></p>
+        <blockquote class="ministry-modal-verse" id="ministry-modal-verse"></blockquote>
+        <a
+          id="ministry-modal-cta"
+          class="btn"
+          href="https://docs.google.com/forms/d/e/SEU_ID_DO_FORMULARIO/viewform"
+          target="_blank"
+          rel="noopener noreferrer"
+        >
+          Quero participar
+        </a>
+      </div>
+    </div>
 
     <footer class="site-footer">
       <div class="container">
@@ -166,3 +163,5 @@
     <script src="script.js"></script>
   </body>
 </html>
+
+
