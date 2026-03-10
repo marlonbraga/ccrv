@@ -72,7 +72,7 @@ document.addEventListener("DOMContentLoaded", () => {
           "Espaço dedicado ao ensino da Palavra de Deus para crianças, de forma didática, alegre e apropriada para cada faixa etária. Aqui os pequenos aprendem os princípios bíblicos enquanto crescem em fé, comunhão e amor a Deus.",
         verse:
           "\"Instrui a criança no caminho em que deve andar, e até quando envelhecer não se desviará dele.\" (Provérbios 22:6)",
-        image: "https://picsum.photos/400/240?random=1",
+        image: "images/ministerios/ebi.png",
       },
       {
         title: "Louvor",
@@ -84,7 +84,7 @@ document.addEventListener("DOMContentLoaded", () => {
           "Ministério responsável por conduzir a igreja em adoração através da música. Nosso propósito é servir a Deus com excelência, ajudando a congregação a expressar gratidão, reverência e entrega ao Senhor.",
         verse:
           "\"Tudo quanto tem fôlego louve ao Senhor. Louvai ao Senhor.\" (Salmos 150:6)",
-        image: "https://picsum.photos/400/240?random=2",
+        image: "images/ministerios/louvor.png",
       },
       {
         title: "Escola Bíblica",
@@ -96,7 +96,7 @@ document.addEventListener("DOMContentLoaded", () => {
           "Ambiente de ensino e crescimento espiritual por meio do estudo sistemático das Escrituras. A Escola Bíblica busca fortalecer a fé, aprofundar o conhecimento da Palavra e formar discípulos comprometidos com Cristo.",
         verse:
           "\"Toda a Escritura é inspirada por Deus e útil para ensinar, para repreender, para corrigir e para instruir na justiça.\" (2 Timóteo 3:16)",
-        image: "https://picsum.photos/400/240?random=3",
+        image: "images/ministerios/escola-biblica.png",
       },
       {
         title: "Projeto Celeiro",
@@ -108,7 +108,7 @@ document.addEventListener("DOMContentLoaded", () => {
           "Iniciativa de cuidado e apoio a pessoas em necessidade. O Projeto Celeiro promove ações de solidariedade e assistência, demonstrando o amor de Cristo por meio do serviço e da generosidade da igreja.",
         verse:
           "\"Quem se compadece do pobre ao Senhor empresta, e este lhe paga o seu benefício.\" (Provérbios 19:17)",
-        image: "https://picsum.photos/400/240?random=4",
+        image: "images/ministerios/celeiro.png",
       },
       {
         title: "Mães que Oram",
@@ -119,7 +119,7 @@ document.addEventListener("DOMContentLoaded", () => {
           "Grupo de intercessão formado por mães que se reúnem para orar por seus filhos, famílias e pela próxima geração. Um tempo de comunhão e clamor a Deus pela proteção, direção e crescimento espiritual das famílias.",
         verse:
           "\"A oração feita por um justo pode muito em seus efeitos.\" (Tiago 5:16)",
-        image: "https://picsum.photos/400/240?random=5",
+        image: "images/ministerios/mulheres-coonversando.png",
       },
       {
         title: "Ministério de Casais",
@@ -131,7 +131,7 @@ document.addEventListener("DOMContentLoaded", () => {
           "Espaço voltado para o fortalecimento dos relacionamentos conjugais à luz da Palavra de Deus. O ministério promove encontros e atividades que ajudam os casais a crescerem juntos em amor, compromisso e fé.",
         verse:
           "\"Assim, já não são dois, mas uma só carne. Portanto, o que Deus ajuntou não o separe o homem.\" (Mateus 19:6)",
-        image: "https://picsum.photos/400/240?random=6",
+        image: "images/ministerios/casais2.png",
       },
       {
         title: "Adolescentes",
@@ -143,7 +143,7 @@ document.addEventListener("DOMContentLoaded", () => {
           "Ministério dedicado a acompanhar adolescentes em sua caminhada de fé. Através de encontros, estudos bíblicos e momentos de comunhão, buscamos ajudá-los a conhecer a Deus e viver os valores do Evangelho.",
         verse:
           "\"Ninguém despreze a tua mocidade; pelo contrário, torna-te padrão dos fiéis.\" (1 Timóteo 4:12)",
-        image: "https://picsum.photos/400/240?random=7",
+        image: "images/ministerios/teens.png",
       },
       {
         title: "Aulas de Música",
@@ -155,7 +155,7 @@ document.addEventListener("DOMContentLoaded", () => {
           "Aulas voltadas para o desenvolvimento musical dentro da igreja, incentivando novos talentos e preparando pessoas para servir no ministério de louvor.",
         verse:
           "\"Cantai ao Senhor um cântico novo; cantai ao Senhor, todas as terras.\" (Salmos 96:1)",
-        image: "https://picsum.photos/400/240?random=8",
+        image: "images/ministerios/aula-de-musica.png",
       },
       {
         title: "Coral",
@@ -167,7 +167,7 @@ document.addEventListener("DOMContentLoaded", () => {
           "Grupo musical dedicado à adoração congregacional através do canto coletivo. O coral participa de cultos e ocasiões especiais proclamando o Evangelho por meio da música.",
         verse:
           "\"Falando entre vós com salmos, entoando e louvando de coração ao Senhor.\" (Efésios 5:19)",
-        image: "https://picsum.photos/400/240?random=9",
+        image: "images/ministerios/coral.png",
       },
       {
         title: "Reunião das Mulheres",
@@ -179,7 +179,7 @@ document.addEventListener("DOMContentLoaded", () => {
           "Encontros voltados ao crescimento espiritual das mulheres da igreja. Momentos de comunhão, oração e estudo da Palavra que fortalecem a fé e encorajam uma vida cristã madura.",
         verse:
           "\"Enganosa é a graça, e vã, a formosura, mas a mulher que teme ao Senhor, essa será louvada.\" (Provérbios 31:30)",
-        image: "https://picsum.photos/400/240?random=10",
+        image: "images/ministerios/mulheres-coonversando.png",
       },
       {
         title: "Bem-vindo",
@@ -191,7 +191,7 @@ document.addEventListener("DOMContentLoaded", () => {
           "Equipe responsável por receber visitantes e novos participantes da igreja com atenção e hospitalidade. Nosso objetivo é ajudar cada pessoa a se sentir acolhida e integrada à comunidade.",
         verse:
           "\"Portanto, acolhei-vos uns aos outros, como também Cristo nos acolheu para a glória de Deus.\" (Romanos 15:7)",
-        image: "https://picsum.photos/400/240?random=11",
+        image: "images/ministerios/bem-vindo.png",
       },
       {
         title: "Introdução",
@@ -203,7 +203,7 @@ document.addEventListener("DOMContentLoaded", () => {
           "Ministério que acompanha pessoas que estão chegando à igreja ou iniciando sua caminhada na fé. Oferece orientação básica sobre a vida cristã, a igreja e os próximos passos no discipulado.",
         verse:
           "\"Como crianças recém-nascidas, desejai o genuíno leite espiritual.\" (1 Pedro 2:2)",
-        image: "https://picsum.photos/400/240?random=12",
+        image: "images/ministerios/introducao.png",
       },
       {
         title: "Intercessão",
@@ -214,7 +214,7 @@ document.addEventListener("DOMContentLoaded", () => {
         longDescription:
           "Grupo dedicado à oração constante pela igreja, pelas famílias e pelas necessidades da comunidade. O ministério de intercessão sustenta espiritualmente a igreja através da busca contínua pela presença de Deus.",
         verse: "\"Orai sem cessar.\" (1 Tessalonicenses 5:17)",
-        image: "https://picsum.photos/400/240?random=13",
+        image: "images/ministerios/intercessao.png",
       },
       {
         title: "Formação de Líderes",
@@ -226,7 +226,7 @@ document.addEventListener("DOMContentLoaded", () => {
           "Ministério voltado ao preparo de novos líderes para servir na igreja. Através de ensino bíblico, acompanhamento e prática ministerial, buscamos formar servos comprometidos com o cuidado do povo de Deus.",
         verse:
           "\"E o que de mim ouviste perante muitas testemunhas, isso mesmo transmite a homens fiéis.\" (2 Timóteo 2:2)",
-        image: "https://picsum.photos/400/240?random=14",
+        image: "images/ministerios/lideres.png",
       },
     ];
 
